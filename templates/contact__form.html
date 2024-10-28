@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../styles/contact__form.css">
+    <link rel="stylesheet" href="../styles/backgraund.css">
+	<link rel="stylesheet" href="../styles/font.css">
+
+</head>
+<body>
+    <header class="header">
+		<div class="navbar container">
+			<a href="../index.html" class="logo"><img src="../images/Frame 1.svg" alt=""></a>
+			<nav class="nav">
+				<ul class="menu">
+					<li class="menu__item"><a href="../pages/about__us.html" class="menu__link">About Us</a></li>
+					<li class="menu__item"><a href="../pages/universities.html" class="menu__link">Universities</a></li>
+					<li class="menu__item"><a href="../pages/feedbacks.html" class="menu__link">Feedbacks</a></li>
+					<li class="menu__item"><a href="../pages/services.html" class="menu__link">Services</a></li>
+					<li class="menu__item"><a href="../pages/news.html" class="menu__link">News</a></li>
+					<li class="menu__item"><a href="./contact__form.html" class="menu__link here">Contact Form</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+    <main class="main">
+        <div class="bg container">
+            <form action="https://formspree.io/f/mwkgrabw" method="POST" class="form">
+                <h1 class="form__title">Request Consulting</h1>
+                <label for="" class="form__label">First Name</label>
+                <input type="text" name="first" placeholder="" autocomplete="off" class="form__item" required>
+                <label for="" class="form__label">Last Name</label>
+                <input type="text" name="last" placeholder="" autocomplete="off" class="form__item" required>
+                <label for="" class="form__label">Birthday</label>
+                <input type="date" name="birth" placeholder="" autocomplete="off" class="form__item" required>
+                <label for="" class="form__label">Phone Number</label>
+                <input type="tel" name="tel" placeholder="" autocomplete="off" class="form__item" required>
+                <label for="" class="form__label">Email Address</label>
+                <input type="email" name="email" placeholder="" autocomplete="off" class="form__item" required>
+                <label for="" class="form__label">Country for the education</label>
+                <select name="country" class="form__item" required>
+                    <option value="Choose" class="form__item" selected></option>
+                    <option value="USA" class="form__item">The United States of America</option>
+                    <option value="Canada" class="form__item">Canada</option>
+                    <option value="Europe" class="form__item">Europe</option>
+                    <option value="Australia" class="form__item">Australia</option>
+                    <option value="Other" class="form__item">Other</option>
+                </select>
+                <label for="" class="form__label">Level of the education</label>
+                <select name="country" class="form__item" required>
+                    <option value="Choose" class="form__item" selected></option>
+                    <option value="USA" class="form__item">Bachelor</option>
+                    <option value="Canada" class="form__item">Mastery</option>
+                    <option value="Europe" class="form__item">PhD</option>
+                    <option value="Australia" class="form__item">Summer School</option>
+                    <option value="Other" class="form__item">Other</option>
+                </select>
+                <label for="" class="form__label">Enter text</label>
+                <textarea rows="5" cols="60" name="message" placeholder="" autocomplete="off" class="form__item messagge"></textarea>
+                <button type="submit" class="form__button">SUBMIT</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul class="menu__icon container">
+            <li class="menu__icon--item"><a href="" class="icon__link icon__link--1"><img src="../images/icons8-телеграм 1.svg" alt=""></a></li>
+            <li class="menu__icon--item"><a href="" class="icon__link icon__link--2"><img src="../images/icons8-whatsapp (1) 1.svg" alt=""></a></li>
+            <li class="menu__icon--item"><a href="" class="icon__link icon__link--3"><img src="../images/icons8-мета 1.svg" alt=""></a></li>
+            <li class="menu__icon--item"><a href="" class="icon__link icon__link--4"><img src="../images/icons8-instagram (1) 1.svg" alt=""></a></li>
+            <li class="menu__icon--item"><a href="" class="icon__link icon__link--5"><img src="../images/icons8-почта 1.svg" alt=""></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
